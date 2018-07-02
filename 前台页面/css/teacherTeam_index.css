@@ -1,0 +1,341 @@
+﻿*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+html, body {
+    width: 100%;
+    height:100%;
+    background-color: #f4f4f4;
+}
+.wrapper {
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    height: 1010px; 
+}
+/* 头部区域 */
+.wrapper .wra-top {
+    width: 1860px;
+    margin:0 auto;
+    height: 230px;
+    margin:0 auto;
+    background:linear-gradient(to bottom,#BB0000 0,#FF2222 100%);
+}
+.wrapper .wra-top .wra-top-top{
+    width:100%;
+    height:160px;
+}
+.wrapper .wra-top .wra-top-top .top-content{
+    width:1700px;
+    height:160px;
+    margin:0 auto;
+}
+.wrapper .wra-top .wra-top-top .top-content .logo-box{
+    width:500px;
+    height:160px;
+    float:left;
+}
+.wrapper .wra-top .wra-top-top .top-content .logo-box .logo-img{
+    width:80px;
+    height:70px;
+    float:left;
+    margin-top:15px;
+}
+.wrapper .wra-top .wra-top-top .top-content .logo-box .logo-img img{
+    width:100%;
+    height:100%;
+}
+.wrapper .wra-top .wra-top-top .top-content .logo-box .logo-info{
+    width:260px;
+    height:70px;
+    float:left;
+    margin-top:32px;
+    margin-left:5px;
+}
+.wrapper .wra-top .wra-top-top .top-content .logo-box .logo-info p{
+    font-size:31px;
+    font-family:黑体;
+    color:white;
+    letter-spacing:10px; 
+}
+.wrapper .wra-top .wra-top-top .top-content .logo-box .cource-info{
+    width: 300px;
+    height: 60px;
+    background: linear-gradient(to right,rgba(255, 255, 255, 0.1) 0,rgba(255, 255, 255, 0.4) 50%,rgba(255, 255, 255, 0.1) 100%);
+    float:left;
+    margin-left:150px;
+    margin-top:-20px;
+}
+.wrapper .wra-top .wra-top-top .top-content .logo-box .cource-info  p{
+    font-family:微软雅黑;
+    font-size:26px;
+    color:white;
+    letter-spacing:2px;
+    line-height:60px;
+    text-align:center;
+}
+.wrapper .wra-top .wra-top-top .top-content .date{
+    width:230px;
+    height:40px;
+    float:left;
+    margin-left:950px;
+    margin-top:30px;
+}
+.wrapper .wra-top .wra-top-bottom{
+    width:100%;
+    height:70px;
+}
+/* 头部菜单栏区域 */
+.wrapper .wra-top .wra-top-bottom .menu{
+    width:1148px;
+    height:50px;
+    background:linear-gradient(to top,#BB0000 0,#FF2222 100%);
+    float:left;
+    margin-top:20px;
+    margin-left:340px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border-top:1px solid white;
+    overflow:hidden;
+}
+.wrapper .wra-top .wra-top-bottom .menu ul{
+    width:100%;
+    height:100%;
+}
+.wrapper .wra-top .wra-top-bottom .menu ul li{
+    width:164px;
+    float:left;
+    line-height:50px;
+    text-align:center;
+}
+.wrapper .wra-top .wra-top-bottom .menu ul li a{
+    font-size:20px;
+    font-weight:600;
+    color:white;
+    font-family:宋体;
+}
+.wrapper .wra-top .wra-top-bottom .menu ul li:hover{
+    background-color:orangered;
+}
+/* 搜索区域 */
+.wrapper .wra-top .wra-top-bottom .search-box{
+    width:318px;
+    height:40px;
+    float:left;
+    margin-left:40px;
+    margin-top:20px;
+}
+.wrapper .wra-top .wra-top-bottom .search-box .search-text{
+    width:240px;
+    height:40px;
+    overflow:hidden;
+    border:2px solid #ff9000;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    overflow:hidden;
+    float:left;
+}
+.wrapper .wra-top .wra-top-bottom .search-box .search-text input{
+    width:233px;
+    height:29px;
+    line-height:29px;
+    border:none;
+    outline:0;
+    text-indent:18px;
+    padding:6px 16px;
+    background-color:#fff
+}
+.wrapper .wra-top .wra-top-bottom .search-box .btn{
+    float:left;
+    width:74px;
+    height:44px;
+    margin-left:0px;
+    z-index:1000;
+    text-align:center;
+}
+.wrapper .wra-top .wra-top-bottom .search-box .btn button{
+    border:none;
+    background:linear-gradient(to right,#ff9000 0,#ff5000 100%);
+    width:100%;
+    height:100%;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    cursor:pointer;
+    color:#fff;
+    font-size:18px;
+    font-weight:700;
+    outline:none;
+}
+.wrapper .wra-top .wra-top-bottom .search-box .sousuo{
+    position:absolute;
+    width:35px;
+    height:34px;
+    margin-left:5px;
+    margin-top:5px;
+    background:url('../image/sousuo.png') no-repeat;
+    background-size:100% 100%;
+}
+/* 中间区域 */
+.wrapper .wra-center{
+    width: 1860px;
+    margin:0 auto;
+    height: 620px;
+    background-color:#DDDDDD;
+}
+.wrapper .wra-center .courseRes_info{
+    width:1148px;
+    height:620px;
+    background: linear-gradient(to bottom,#E0EEEE 0,white 100%);
+    margin-left:340px;
+    margin-top:0px;
+    position:absolute;
+    box-shadow: #666 0px 0px 25px;
+}
+.wrapper .wra-center .courseRes_info .courseRes_list {
+    width: 220px;
+    height: 160px;
+    margin-top:20px;
+    margin-left:15px;
+    position: absolute;
+}
+.wrapper .wra-center .courseRes_info .courseRes_list p{
+    margin-left:0px;
+    position:relative;
+    width:200px;
+    color:white;
+    height:45px;
+    line-height:45px;
+    text-align:center;
+    font-family:宋体;
+    font-size:25px;
+    font-weight:500;
+    letter-spacing:5px;
+    background:linear-gradient(to bottom,rgba(255, 0, 0, 0.9) 0,rgba(255, 0, 0, 0.4) 50%,rgba(255, 0, 0, 0.9) 100%);
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+}
+.wrapper .wra-center .courseRes_info .courseRes_list ul{
+    width:180px;
+    height:100%;
+    margin-left:10px;
+    margin-top:1px;
+    background-color:#d4d4d4;
+}
+.wrapper .wra-center .courseRes_info .courseRes_list ul li{
+    width:180px;
+    height:52px;
+    text-align:center;
+    border-bottom:1px solid #E6E6E6;
+    line-height:52px;
+}
+.wrapper .wra-center .courseRes_info .courseRes_list ul li:hover{
+    position:relative;
+    background-color:orangered;
+}
+.wrapper .wra-center .courseRes_info .courseRes_list ul li:hover a{
+   color:white;
+}
+.wrapper .wra-center .courseRes_info .courseRes_list ul li a{
+    font-size:18px;
+    font-family:黑体;
+    color:black;
+    line-height:50px;
+}
+.wrapper .wra-center .courseRes_info .courseRes_content{
+    width:860px;
+    height:550px;
+    background:linear-gradient(to bottom,floralwhite 0,white 100%);
+    margin-top:20px;
+    margin-left:250px;
+    position:absolute;
+}
+.wrapper .wra-center .courseRes_info .courseRes_content .title{
+    width:100%;
+    height:50px;
+    border-bottom:2px solid red;
+}
+.wrapper .wra-center .courseRes_info .courseRes_content .title .introduce{
+    width:130px;
+    height:100%;
+    float:left;
+}
+.wrapper .wra-center .courseRes_info .courseRes_content .title .introduce img{
+    float:left;
+    width:50px;
+    height:50px;
+}
+.wrapper .wra-center .courseRes_info .courseRes_content .title .introduce p{
+    font-size:16px;
+    font-family:黑体;
+    margin-left:50px;
+    line-height:50px;
+    position:absolute;
+    color:red;
+}
+.wrapper .wra-center .courseRes_info .courseRes_content .title .location{
+    width:270px;
+    height:50px;
+    margin-left:560px;
+    position:absolute;
+}
+.wrapper .wra-center .courseRes_info .courseRes_content .title .location p1{
+    font-size:16px;
+    font-family:黑体;
+    line-height:50px;
+    color:red;
+}
+.wrapper .wra-center .courseRes_info .courseRes_content .title .location p2{
+    font-size:16px;
+    font-family:黑体;
+    line-height:50px;
+}
+.wrapper .wra-center .courseRes_info .courseRes_content .content{
+    width:100%;
+    height:500px;
+}
+.wrapper .wra-center .courseRes_info .courseRes_content .content textarea{
+    top:15px;
+    position:relative;
+    font-size:13px;
+    border:none;
+    text-indent:20px;
+    background:linear-gradient(to bottom,floralwhite 0,white 100%);
+}
+/* 底部区域 */
+.wrapper .wra-bottom {
+    width: 1860px;
+    margin:0 auto;
+    height: 160px;
+    background-color:#AA0000;
+    position: absolute;
+}
+.wrapper .wra-bottom p{
+   width:100%;
+   height:5px;
+   background-color:white;
+   top:15px;
+   position:relative;
+}
+.wrapper .website-info{
+    margin:20px auto;
+    width:550px;
+    height:100px;
+}
+.wrapper .website-info ul li{
+    text-align:center;
+    font-size:16px;
+    text-decoration:none;
+    color:white;
+    line-height:26px;
+}
+.wrapper .website-info ul li a{
+    color:white;
+}
+.wrapper .website-info ul li a:hover{
+    text-decoration:underline;
+    color:chocolate;
+}

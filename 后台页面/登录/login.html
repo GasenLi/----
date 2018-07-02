@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>管理员登录</title>
+
+    <link rel="stylesheet" type="text/css" href="Util/bootstrap.min.css" />
+
+    <style>
+        body {
+            background-image: url("Image/loginBakeground.jpg");
+        }
+
+        #loginUnit {
+            background-color: white;
+            margin-left: 30%;
+            margin-top: 7%;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: darkgrey 0px 0px 10px 2px;
+        }
+
+        #loginButton {
+            border: 0;
+            width: 90px;
+            height: 90px;
+            padding: 0px;
+            margin-left: 30%;
+            margin-top: 2%;
+        }
+
+        #identiImg {
+            width: 80px;
+            height: 45px;
+            margin-top: 0;
+            margin-left: 50%;
+        }
+    </style>
+    <script language="JavaScript">
+        function openwin() {
+            window.open("page.html", "newwindow", "height=100, width=400, toolbar =no, menubar=no, scrollbars=no, resizable=no, location=no, status=no") 
+    </script>
+</head>
+
+<body>
+    <div id="loginUnit" style="width:40%; height:30%;">
+        <div id="head">
+            <h2 style="margin-left:20%; margin-bottom:10%;">课程通用网站后台管理系统</h2>
+        </div>
+
+
+        <div id="loginForm" style="margin-right:7%; margin-left:7%;">
+            <form class="form-horizontal" action="../admin_Index.html" method="post">
+                <div class="form-group">
+                    <label for="userName" class="col-sm-2 control-label">用户名</label>
+                    <div class="col-sm-10">
+                        <input  class="form-control" id="userName" placeholder="用户名">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="密码">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="identiCode" class="col-sm-2 control-label">验证码</label>
+                    <div class="col-sm-10">
+                        <input  class="form-control" id="identiCode" placeholder="验证码" >
+                        
+                    </div>
+                </div>
+              
+                <div class="checkbox" style="float:left; margin-left:18%;">
+                    <label>
+                            <input type="checkbox"> 记住我
+                    </label>
+                </div>
+                <img src="Image/验证码.png" style="float:left;" alt="" id="identiImg">
+              
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default" id="loginButton">
+                            <img src="Image/登录.png" alt="" style="max-width: 100%; max-height: 100%;">
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

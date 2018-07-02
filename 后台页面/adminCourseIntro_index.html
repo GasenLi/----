@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <title>通用课程网站后台管理</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/adminCourseIntro_index.css">
+</head>
+<body>
+    <div class="wrap">
+        <!-- 头部区域 -->
+        <div class="wrap-top">
+            <div class="info">
+                <div class="title">
+                    <div class="chinese">
+                        <p>通用课程网站后台管理系统</p>
+                    </div>
+                    <div class="english">
+                        <p>Website background management system</p>
+                    </div>
+                </div>
+                <div class="memu">
+                    <div class="menu-operator">
+                        <ul>
+                            <li class="changePwd"><a href="#">修改密码</a></li>
+                            <li><img src="image/dh.png" /></li>
+                            <li class="exit"><a href="#">退出</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 导航栏区域 -->
+        <div class="wrap-nav">
+            <div class="nav-content">
+                <div class="admin">
+                    <img src="image/people.png" />
+                    <p1>欢迎您:</p1>
+                    <p2>超级管理员</p2>
+                </div>
+                <div class="link">
+                    <div class="pic1"><a href="admin_Index.html"><img src="image/index.png" /></a></div>
+                    <div class="pic2"><a href="#"><img src="image/download.png" /></a></div>
+                </div>
+            </div>
+        </div>
+        <!-- 中间内容区域 -->
+        <div class="wrap-center">
+            <div class="center-content">
+                <div class="content-left">
+                    <div class="left-top">
+                        <img src="image/clock.png" />
+                        <div class="date">
+                            <script>
+                                var today = new Date();
+                                function initArray() {
+                                    this.length = initArray.arguments.length;
+                                    for (var i = 0; i < this.length; i++) {
+                                        this[i + 1] = initArray.arguments[i];
+                                    }
+                                }
+                                var d = new initArray("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
+                                document.write("<font color=#333333 style='font-size:16px;font-weight:600; font-family:楷体'>", today.getFullYear(),
+                                    "年", today.getMonth() + 1, "月", today.getDate(), "日", d[today.getDay() + 1], "</font>");
+                            </script>
+                        </div>
+                    </div>
+                    <div class="left-bottom">
+                        <div class="panel-group" id="accordion">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <p class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion"
+                                           href="#collapseOne">
+                                            网站内容管理
+                                        </a>
+                                    </p>
+                                    <img src="image/hand.png" />
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <div class="contentSetting-list">
+                                            <ul>
+                                                <li class=""><img src="image/jiaobiao.png" /><a href="adminHomePage_index.html">首页内容信息管理</a></li>
+                                                <li class=""><img src="image/jiaobiao.png" /><a href="adminCourseIntro_index.html">课程介绍内容管理</a></li>
+                                                <li class=""><img src="image/jiaobiao.png" /><a href="adminTeacherTeam_index.html">教学团队内容管理</a></li>
+                                                <li class=""><img src="image/jiaobiao.png" /><a href="adminCoursePro_index.html">课程建设内容管理</a></li>
+                                                <li class=""><img src="image/jiaobiao.png" /><a href="adminCourseRes_index.html">课程资源内容管理</a></li>
+                                                <li class=""><img src="image/jiaobiao.png" /><a href="adminQuestionAns_index.html">问题与答疑内容管理</a></li>
+                                                <li class=""><img src="image/jiaobiao.png" /><a href="adminCourseStu_index.html">课程研究内容管理</a></li>
+                                                <li class=""><img src="image/jiaobiao.png" /><a href="adminMeaageCheck_index.html">文章审核</a></li>
+                                                <li class="nouse"></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <p class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion"
+                                           href="#collapseTwo">
+                                            系统设置
+                                        </a>
+                                    </p>
+                                    <img src="image/hand.png" />
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="systemSetting-list">
+                                            <ul>
+                                                <li class=""><img src="image/jiaobiao.png" /><a href="adminPermission_Index.html">权限管理</a></li>
+                                                <li class=""><img src="image/jiaobiao.png" /><a href="adminPerson_Index.html">人员管理</a></li>
+                                                <li class="nouse"></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-right">
+                    <div class="right-top">
+                        <div class="introduce">
+                            <p>课程介绍内容管理</p>
+                        </div>
+                    </div>
+                    <div class="right-bottom">
+                        <div class="oldInfo">
+                            <table class="table">
+                                <caption>首页展示信息管理</caption>
+                                <thead>
+                                    <tr>
+                                        <th>标题</th>
+                                        <th>审核状态</th>
+                                        <th>发布日期</th>
+                                        <th>操作</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="active">
+                                        <td>标题1</td>
+                                        <td>已审核</td>
+                                        <td>2018-6-23</td>
+                                        <td><a href="#">删除</a></td>
+                                    </tr>
+                                    <tr class="success">
+                                        <td>标题2</td>
+                                        <td>已审核</td>
+                                        <td>2018-6-23</td>
+                                        <td><a href="#">删除</a></td>
+                                    </tr>
+                                    <tr class="warning">
+                                        <td>标题3</td>
+                                        <td>已审核</td>
+                                        <td>2018-6-23</td>
+                                        <td><a href="#">删除</a></td>
+                                    </tr>
+                                    <tr class="danger">
+                                        <td>标题4</td>
+                                        <td>已审核</td>
+                                        <td>2018-6-23</td>
+                                        <td><a href="#">删除</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>                     
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 底部信息 -->
+        <div class="wrap-bottom">
+            <div class="bottom-content">
+                <p></p>
+                <div class="website-info">
+                    <ul>
+                        <li>重庆理工大学计算机科学院工程学院版权所有</li>
+                        <li>联系地址:重庆市巴南区红光大道（邮编：40054） 联系电话：(023)68667334</li>
+                        <li><a href="http://www.cqut.edu.cn/">重庆理工大学</a> @1940–2018 All Rights Reserved.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

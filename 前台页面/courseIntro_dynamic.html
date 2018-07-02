@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>通用数据结构精品课程在线服务与学习网站</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/courseIntro_dynamic.css" />
+</head>
+<body>
+    <!--整个网站显示区域-->
+    <div class="wrapper">
+        <!--网站头部区域-->
+        <div class="wra-top">
+            <div class="wra-top-top">
+                <div class="top-content">
+                    <div class="logo-box">
+                        <div class="logo-img">
+                            <a href="http://www.cqut.edu.cn"><img src="image/school_logo.png" /></a>
+                        </div>
+                        <div class="logo-info">
+                            <p>重庆理工大学</p>
+                        </div>
+                        <div class="cource-info">
+                            <p>数据结构精品课程</p>
+                        </div>
+                    </div>
+                    <div class="date">
+                        <script>
+                            var today = new Date();
+                            function initArray() {
+                                this.length = initArray.arguments.length;
+                                for (var i = 0; i < this.length; i++) {
+                                    this[i + 1] = initArray.arguments[i];
+                                }
+                            }
+                            var d = new initArray("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
+                            document.write("<font color=#FBAE66 style='font-size:19px; font-family:楷体'>", today.getFullYear(),
+                                "年", today.getMonth() + 1, "月", today.getDate(), "日", d[today.getDay() + 1], "</font>");
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="wra-top-bottom">
+                <div class="menu">
+                    <ul>
+                        <li class="homePage"><a href="homePage.html">首页</a></li>
+                        <li class="courseIntro"><a href="courseIntro_index.html">课程介绍</a></li>
+                        <li class="teacherTeam"><a href="teacherTeam_index.html">教学团队</a></li>
+                        <li class="coursePro"><a href="coursePro_index.html">课程建设</a></li>
+                        <li class="courseRes"><a href="courseRes_index.html">课程资源</a></li>
+                        <li class="questionAns"><a href="questionAns_index.html">问题与答疑</a></li>
+                        <li class="courseStu"><a href="courseStu_index.html">课程研究</a></li>
+                    </ul>
+                </div>
+                <div class="search-box">
+                    <a href="#" class="sousuo"></a>
+                    <form action="" method="post">
+                        <div class="search-text">
+                            <input type="text" placeholder="请输入..." />
+                        </div>
+                        <div class="btn">
+                            <button>搜索</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--网站中间内容区域-->
+        <div class="wra-center">
+            <div class="courseIntro_info">
+                <div class="courseIntro_list">
+                    <p>课程介绍</p>
+                    <ul>
+                        <li class="courseIntro_instr"><a href="courseIntro_instr.html">课程简介</a></li>
+                        <li class="courseIntro_mehtod"><a href="courseIntro_method.html">教学方法</a></li>
+                        <li class="courseIntro_arrange"><a href="courseIntro_arrange.html">课程安排</a></li>
+                        <li class="courseIntro_outline"><a href="courseIntro_outline.html">课程大纲</a></li>
+                        <li class="courseIntro_ideas"><a href="courseIntro_ideas.html">课程理念与目标</a></li>
+                        <li class="courseIntro_dynamic"><a href="courseIntro_dynamic.html">课程动态</a></li>
+                    </ul>
+                </div>
+                <div class="courseIntro_content">
+                    <div class="title">
+                        <div class="introduce">
+                            <img src="image/course.png" />
+                            <p>课程动态</p>
+                        </div>
+                        <div class="location">
+                            <p1>您当前的位置:</p1>
+                            <p2>课程介绍 ></p2>
+                            <a href="#">课程动态</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="info-list">
+                            <ul>
+                                <li><a href="courseIntro_dynamic.html">我校举行数据结构程序设计大赛</a><span>2018-6-25</span></li>
+                                <li><a href="courseIntro_dynamic.html">欢迎某某大学教授来我校讲座</a><span>2018-6-25</span></li>
+                                <li><a href="courseIntro_dynamic.html">计算机科学院工程学院某某老师获奖</a><span>2018-6-25</span></li>
+                                <li><a href="courseIntro_dynamic.html">关于选拔人才事宜通知</a><span>2018-6-25</span></li>
+                                <li><a href="courseIntro_dynamic.html">关于加强课堂纪律问题事宜</a><span>2018-6-25</span></li>
+                            </ul>
+                        </div>
+                        <div class="info-page">
+                            <table align="center">
+                                <tr>
+                                    <td>
+                                        <ul class="pagination">
+                                            <li><a href="#">&laquo;</a></li>
+                                            <li><a href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            <li><a href="#">3</a></li>
+                                            <li><a href="#">4</a></li>
+                                            <li><a href="#">5</a></li>
+                                            <li><a href="#">&raquo;</a></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>                                                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--网站底部区域-->
+        <div class="wra-bottom">
+            <p></p>
+            <div class="website-info">
+                <ul>
+                    <li>重庆理工大学计算机科学院工程学院版权所有</li>
+                    <li>联系地址:重庆市巴南区红光大道（邮编：40054） 联系电话：(023)68667334</li>
+                    <li><a href="#">重庆理工大学</a> @1940–2018 All Rights Reserved.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
